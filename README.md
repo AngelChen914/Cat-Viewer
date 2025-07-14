@@ -1,12 +1,13 @@
-# React + Vite
+# Cat Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application to view cats, like them, or ban specific cat attributes. Liked cats are shown on a sidebar, while unpreferred cat attributes will not appear in future cats.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="Cat-Viewer.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" />
 
-## Expanding the ESLint configuration
+## Acknowledgments
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- The Cat API (https://thecatapi.com/)
+- ScreenToGif
+- Background cat paw pattern Designed by Freepik (www.freepik.com)
