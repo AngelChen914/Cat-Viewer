@@ -1,0 +1,78 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+img{
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.catLayout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.catInfo {
+  padding: 2em;
+  border-radius: 8px;
+  margin-right: 2em;
+  background-color: rgba(225, 229, 242, 0.8);
+  margin: auto;
+  width: 60%;
+}
+
+.banList {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100vh; 
+  background-color: #BFDBF7;
+  padding: 0em 1em 0em 1em;
+  overflow-y: auto; 
+  flex-direction: column;
+}
+
+.likedCats {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: #BFDBF7;
+  padding: 0em 1em 0em 1em;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+
+.likedIcon {
+  cursor: pointer;
+}
+
+.likedImage {
+  width: 70%;
+  padding: 10px;
+  overflow-y: auto;
+  margin: auto;
+}
